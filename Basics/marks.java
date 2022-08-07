@@ -35,6 +35,5 @@ public class marks {
         double avg = (m1 + m2 + m3) / 3;
         System.out.println("Name is: " + ch);
         System.out.print("Average Is:  " + avg);
-
     }
 }
