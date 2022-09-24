@@ -14,3 +14,11 @@ public class object {
         System.out.println("Value Of j : " + ref2.j);
     }
 }
+
+/*
+ * Output
+ * Address Of ref1 : object@2c7b84de
+ * Address Of ref2 : object@3fee733d
+ * Value Of i : 10
+ * Value Of j : false
+ */

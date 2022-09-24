@@ -1,3 +1,5 @@
+// Write a Program To Check whether You Can Access Static Variable After Creation Of Objects 
+
 public class staticMember {
     static int i = 10; // Static Variable
     static boolean j = false;
@@ -14,3 +16,14 @@ public class staticMember {
 
     }
 }
+
+/*
+ * Output
+ * Address Of ref1 : object@3fee733d
+ * Directly i : 10
+ * Directly j : false
+ * Via Class Name i : 10
+ * Via Class Name j: false
+ * Via Object i : 10
+ * Via Object j: false
+ */
