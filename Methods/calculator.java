@@ -1,5 +1,4 @@
 // Create a Calculator with Java Methods which Returns Thr Result and Store it in Variable
-
 public class calculator {
     public static int add(int a, int b) {
         int res = a + b;
