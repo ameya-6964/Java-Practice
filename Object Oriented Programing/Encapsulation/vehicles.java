@@ -24,11 +24,13 @@ public class vehicles {
         car Audi = new car("R8", 130);
         car Suzuki = new car("Dzire", 140);
         car Hyundai = new car("I20", 150);
+        car Lamborghini = new car("Aventador", 200);
 
         Honda.setaverage(25.00);
         Audi.setaverage(25.00);
         Suzuki.setaverage(25.00);
         Hyundai.setaverage(25.00);
+        Lamborghini.setaverage(10.00);
 
         System.out.println("Name Of The Car " + Honda.name);
         System.out.println("Speed Of The Car " + Honda.speed + " Km/Hr");
@@ -48,6 +50,11 @@ public class vehicles {
         System.out.println("Name Of The Car " + Hyundai.name);
         System.out.println("Speed Of The Car " + Hyundai.speed + " Km/Hr");
         System.out.println("Average Of The Car " + Hyundai.getaverage() + " Km/L");
+        System.out.println("^^^^^^^^^^^^^^^^^^^^");
+
+        System.out.println("Name Of The Car " + Lamborghini.name);
+        System.out.println("Speed Of The Car " + Lamborghini.speed + " Km/Hr");
+        System.out.println("Average Of The Car " + Lamborghini.getaverage() + " Km/L");
         System.out.println("^^^^^^^^^^^^^^^^^^^^");
     }
 }
